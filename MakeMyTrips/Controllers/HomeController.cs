@@ -15,7 +15,7 @@ namespace MakeMyTrips.Controllers
 
         public IActionResult Index()
         {
-            return View();// Nilesh love Mahii
+            return View();
         }
 
         public IActionResult Privacy()
