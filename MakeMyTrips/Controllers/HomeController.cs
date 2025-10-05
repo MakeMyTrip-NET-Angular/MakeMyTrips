@@ -10,12 +10,12 @@ namespace MakeMyTrips.Controllers
 
         public HomeController(ILogger<HomeController> logger)
         {
-            _logger = logger;
+            _logger = logger; // addd
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(); 
         }
 
         public IActionResult Privacy()
